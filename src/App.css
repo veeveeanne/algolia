@@ -1,5 +1,9 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 em {
-  background: cyan;
+  background: yellow;
   font-style: normal;
 }
 
@@ -8,28 +12,18 @@ em {
   align-items: center;
   min-height: 50px;
   padding: 0.5rem 1rem;
-  background-image: linear-gradient(to right, #8e43e7, #00aeff);
+  background-image: linear-gradient(to right, #E62B1E, #FFFFFF);
   color: #fff;
   margin-bottom: 1rem;
 }
 
-.header a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.header-title {
-  font-size: 1.2rem;
-  font-weight: normal;
-}
-
-.header-title::after {
-  content: ' ▸ ';
-  padding: 0 0.5rem;
+.header h1 {
+  font-family: Arial Black;
 }
 
 .header-subtitle {
-  font-size: 1.2rem;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .container {
@@ -60,5 +54,9 @@ em {
 }
 
 .hit-name {
+  font-size: 2rem;
+}
+
+.header-name {
   font-weight: bold;
 }
