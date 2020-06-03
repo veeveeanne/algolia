@@ -55,8 +55,8 @@ function App() {
 function Hit(props) {
   return (
     <div>
-      <div class="grid-container">
-        <div class="grid-x grid-margin-x">
+      <div className="grid-container">
+        <div className="grid-x grid-margin-x">
           <div className="hit-name cell small-4">
             <Highlight attribute="name" hit={props.hit} />
           </div>
